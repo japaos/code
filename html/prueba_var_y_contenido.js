@@ -5,9 +5,13 @@ document.write(suma);
 var suma=a+SS;
 hexagesimal=0xFF
 BInario=045
+fecha=new Date();
 
 caraggio="hola me llamo carraggio \n aplico el caracter especial \\n como salto de linea \n  el caracter especial  \t \\t como tabulador";
-alert(caraggio);
+if (fecha.getDay()==1){
+    alert(caraggio);
+}
+
 //The specials caracters like \n or  \t  can be visualized when are used in javascripts codes but in html page are no visible this elements 
 //if is necessary put a line between text in the web page can be used the <br> tag  means jump line in html
 
