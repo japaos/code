@@ -1,5 +1,6 @@
       var personas = 4;
       var importeEntradas = 9.50;
+      var fecha = new Date() 
       //alert('Necesitas ' + personas * importeEntradas + ' euros para que entren todos al cine');
       //i=11;
       //for(let i=0; i<1; i++) {
