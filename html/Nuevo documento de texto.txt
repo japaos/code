@@ -1,0 +1,8 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h1></h1>
+		<form action="http://www.google.com"></form>
+	</body>
+</html>

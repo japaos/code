@@ -1,0 +1,100 @@
+<html lang="es">
+	<script> window.alert("Bienvenido a mi sitio web. Gracias...") </script>
+	<script src="texto_java.js"></script>
+	<head> 
+		<tittle style="font-size: 20px;">titulo libro html</tittle>
+		<style>
+			.button {
+			  border: none;
+			  color: white;
+			  padding: 16px 32px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 16px;
+			  margin: 4px 2px;
+			  transition-duration: 0.4s;
+			  cursor: pointer;
+			}
+			.button1 {
+			background-color: white;
+			color: black;
+			border: 2px solid #4CAF50;
+			}
+			.button1:hover {
+			background-color: #4CAF50;
+			color: white;
+			}
+		</style>	
+	</head>
+	<body> 
+
+		<!--h1 son solo para cabecera y solo se usa uno-->
+		<h1><script> document.write(new Date()) </script>primera linea</h1>
+		<h2>segunda 12:41 p.m. 29/07/2018 linea</h2>
+		<!-- script para crear encabezados con un for -->
+		<script>
+			for (i=3;i<=6;i++) { 
+   				document.write("<H" + i + ">Encabezado de nivel " + i + "</H" + i + ">") 
+			}
+		</script>
+		<p>
+			<span id="mielemento">Pasa el ratón por aquí</span>
+	<script>
+	
+	var pasadas = 0;
+
+    function anunciarPasadas() {
+      pasadas = pasadas + 1;
+	  alert('Has pasado el ratón encima ' + pasadas + ' veces');
+
+    } 
+	document.getElementById('mielemento').addEventListener('mouseenter', anunciarPasadas);
+	
+    </script>   
+		</p>
+		<bk>
+		<p>     <input type=button value=Atras onclick="history.go(-1)">
+			this space is dedicated to paragraph or any text that client ask, for example, introduction, abstract etcetera,\n 
+			alltough it can be put tables or images .</bk>
+			<script src="prueba_var_y_contenido.js"></script>
+			<br>Mostrar alerta tipos: <span id="comprobar">OK</span>
+			<script>
+				document.writeln("consulta variable suma por fuera del script de var_y_contenido.js = "+suma);
+				document.getElementById('comprobar').addEventListener('mouseenter', ver_tipos);
+			</script>
+		</p>
+		<ul>
+		<ol>
+			<li>segundos :</li>
+			<script src="script_tiempos_y_temporizadores.js"></script>
+			<li>	<audio src="html5/BOOM.mp3"controls>reproducir headshot</audio></li>
+			<script>
+			</script>
+		</ol>	
+	
+		</ul>
+		<p><script>
+		var color = "" 
+			while (color != "rojo"){ 
+				   //promt creates a task window when user types in the box
+				   // the information put is returned by the function
+				   color = prompt("dame un color (escribe rojo para salir)","rojo")   //ask to user a color if the word is diferent to rojo,
+																				 // will be show the window again asking for a color until user 
+																				 //type rojo if the second space in function prompt
+																				 //is any text this text will be in the text as a suggest
+			}
+		var suma = 0 
+			while (suma < 1000){ 
+				suma += parseInt(Math.random() * 100) 
+				document.write (suma + "<br>") 
+			}
+			</script>
+			</p>
+		<footer> 
+			<button class="button button1">Green</button> Pie de pagina espacio para info contactos y indicadores de certificaos</footer>
+
+	</body>
+
+
+</html>
