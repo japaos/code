@@ -1,0 +1,3 @@
+import winsound
+
+winsound.PlaySound("BOOM.mp3", winsound.SND_ALIAS)

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+		   <script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+   </script>
+
+   </head>
+   <body>
+      <header>
+        <h1 align="center"> Most important heading </h1>
+        <h3 align="center"> Less important heading </h3>
+      </header>
+      <nav>
+	<ul>
+		<li><a href="#">elemento 1</a></li>
+		<li><a href="#">elemento 2</a></li>
+		<li>elemento 3</li>
+	</ul>
+      </nav>
+      <article>
+	<h1><strong>titulos articulo</strong></h1>
+	<audio src="BOOM.mp3"controls>reproducir headshot</audio>
+	<img draggable="true" />
+	<p>espacio ubicado para articulos textos<br> gadgets o widgets de la pagina</p>
+      </article> 	
+
+
+   <div id="box" ondrop="drop(event)"
+   ondragover="allowDrop(event)"
+   style="border:1px solid black; 
+   width:200px; height:200px"></div>
+
+   <img id="image" src="sample.jpg" draggable="true"
+   ondragstart="drag(event)" width="150" height="150" alt="" />
+   <img id="image" src="sample.jpg" draggable="true"
+   ondragstart="drag(event)" width="150" height="50" alt="" />
+
+	
+      <footer>patica donde se coloca cosas como copyright y contactos</footer>
+
+
+
+
+   </body>
+</html>
