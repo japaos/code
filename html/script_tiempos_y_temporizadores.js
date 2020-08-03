@@ -1,4 +1,4 @@
-var fecha = new Date() 
+fecha = new Date() 
 var seg=fecha.getSeconds();
 var n=0;
 while(n<2){
@@ -41,5 +41,6 @@ for (i=0;i<3;i++){
     //document.write("<br>") 
 }
 
-document.write("<li>"+"Texto del arreglo en la posiciòn 1: " + arre[1] + " longitud del texto " + arre[i].length()+"</li>"); 
-
+//document.write("<li>"+"Texto del arreglo en la posiciòn 1: " + arre[1] + " longitud del texto " + arre[i].length()+"</li>"); 
+//document.write("<li>"+"Texto del arreglo en la posiciòn 1: " + arre[0] + " tipo de dato " + typeof(arre[0])+"</li>"); 
+//length only is a function for array so i have to find other option in this case   
