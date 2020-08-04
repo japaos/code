@@ -42,7 +42,13 @@
    				document.write("<H" + i + ">Encabezado de nivel " + i + "</H" + i + ">") 
 			}
 		</script>
-		<p>
+		<p> 
+			<script>
+				var testCoordenada = new Coordenada(8,55);
+				//console.log(testCoordenada.x);
+				//document.write("parametro de cordenada en x: "+testCoordenada.x+"<br>");
+				document.writeln("resultado de comparar un objeto con otro "+testCoordenada.comparador(new Coordenada(11,11))+"<br>");
+			</script>
 			<span id="mielemento">Pasa el ratón por aquí</span>
 	<script>
 	
@@ -88,16 +94,18 @@
 																				 //type rojo if the second space in function prompt
 																				 //is any text this text will be in the text as a suggest
 			}
-		var suma = 0 
+		    var suma = 0 
 			while (suma < 1000){ 
 				suma += parseInt(Math.random() * 100) 
 				document.write (suma + "<br>") 
 			}
 			</script>
-			</p>
+			<script>crear_tabla();</script>	
+
+		</p>
 		<footer> 
 			<button class="button button1">verde</button> Pie de pagina espacio para info contactos y indicadores de certificaos</footer>
-
+		
 	</body>
 
 <!-- linea agregada para probar github  -->
