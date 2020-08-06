@@ -19,6 +19,7 @@ function  crear_tabla(){
 document.write("</table>")
 }
 
+//creacion de clases por el metodo class:   ---------------------------------
 class Coordenada {
  constructor(x,y){
 		this.x=x;
@@ -33,7 +34,7 @@ comparador(coordenada){
 }
 
 class Planeta {
-	constructor(x,y){
+	constructor(nombre="X",ubicacion=[0,0,0],satelites=0,gravedad=1,tam=1){
 		   this.nombre=nombre;
 		   this.ubicacion=ubicacion;
 		   this.satelites=satelites;
@@ -49,12 +50,29 @@ class Planeta {
        switch(opcion) { 
 		   case 1: 
 				a=parseInt(window.prompt("digite velocidad del planeta km/h","0"));
-				orbita=prompt("Orbita : \nCircular\nEliptica\nNo");
+				orbita=window.prompt("Orbita : \nCircular\nEliptica\nNo","No");
 				switch(orbita){
-					
+					case "Circular":
+						masa=1.989;
+						radio=parseInt(window.prompt("Radio orbita Km: ","1"));
+
+						return(Math.sqrt((this.gravedad*masa)/radio));
+						break;
+					case "Eliptica":
+						masa=1.989;
+						radio=parseInt(window.prompt("Radio orbita Km: ","1"));
+						semi=parseInt(window.prompt("Semi eje mayor de orbita Km: ","1"));
+						vel=Math.sqrt((this.gravedad*masa*2)*((1/radio)-(1/(semi*2))))
+						return(vel);
+						break;
+					default:
+						return(0);
+						break;
 				}
 				break;
-			case 2:
+		   default:
+			   return(0);
+			   
 
 
 	   }
@@ -62,3 +80,27 @@ class Planeta {
    }
 
    }
+   var sistema_solar=[];
+   function f1(){
+	sistema_solar.push(new Planeta("tierra",[1,1,1],1,9.8,1000)) ;
+	sistema_solar.push(new Planeta()) ;
+	sistema_solar[0].mostrar_todo();
+	sistema_solar[1].mostrar_todo();
+	//document.write("<button onclick=tierra.mostar_todo()>Mostrar parametros de "+tierra.nombre+"</boton>");
+	
+}
+
+//creacion de objetos por el metodo literal antiguo de json
+
+var objeto_brillante={
+	 intensidad: 100,volumen:100,masa:100,nombre:"",   //crear atributos se coloca nombre atributo:contenido 
+													   //	 separado con ,
+	 densidad: function(){							   //crear metodos nombre metodo: function(){ ejecucion metodo }	
+		return(this.masa*this.volumen);
+	},metodo_aparte: funcion_a_ejecutar()
+	}
+	function funcion_a_ejecutar(){
+          this.nombre+="ejecuta una funcion aparte de la creacion de la clase asignada a un metodo";
+
+	}
+
