@@ -41,3 +41,12 @@ function ver_tipos() {
     }                        
   } 
   
+
+  meses={
+      enero:31,febrero:29,abril:31
+
+  }
+
+  for(var mes in meses){
+      console.log(mes)
+  }
