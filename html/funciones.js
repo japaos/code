@@ -92,15 +92,25 @@ class Planeta {
 
 //creacion de objetos por el metodo literal antiguo de json
 
-var objeto_brillante={
-	 intensidad: 100,volumen:100,masa:100,nombre:"",   //crear atributos se coloca nombre atributo:contenido 
-													   //	 separado con ,
-	 densidad: function(){							   //crear metodos nombre metodo: function(){ ejecucion metodo }	
-		return(this.masa*this.volumen);
-	},metodo_aparte: funcion_a_ejecutar()
+var esfera={
+	
+	radio:1,angulo:360,
+	get datos(){
+		return ([this.radio,this.angulo]);
+	}, calcular_v :function(){
+			return(2*Math.PI*this.radio);
+	},
+	set datos(r){
+        this.radio=r;this.angulo=r;
 	}
-	function funcion_a_ejecutar(){
-          this.nombre+="ejecuta una funcion aparte de la creacion de la clase asignada a un metodo";
 
-	}
+}	
+	pelota= esfera;
+	console.log(pelota.calcular_v())
+	console.log(pelota.datos)
+	pelota.datos=11;
+	console.log(pelota.datos)
+	pelota.datos=12;
+	console.log(pelota.datos)
+    alert("llega hasta aca")
 
