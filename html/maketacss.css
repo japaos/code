@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background: #D8D8D8;
+    margin: 0.5em auto;
+    padding: 0.5em ;
+}
+
+#header{
+    height: 14%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    margin: 1em;
+    align-content: center;
+    
+}
+#imh{
+    float: right;
+
+}
+
+#nav{
+    height: 4%;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#contenido{
+    height: 52%;
+    background: #ffffff;
+    margin: 1em;
+}
+
+#footer{
+   height: 20%;
+   background: #424242;
+   border-radius: 1em;
+   margin: 1em; 
+}
+
+#seccion{
+    height: 95%;
+    width: 70%;
+    border-radius: 1em;
+    background: #A4A4A4;
+    margin-right: 0.5em;
+    float: left;
+}
+
+#aside{
+    height: 95%;
+    width: 28%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    margin-left: 0.5em;
+    float: right;
+}
+
+
+
