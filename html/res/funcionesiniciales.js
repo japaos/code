@@ -25,6 +25,16 @@ function crear(nu){
         case 1:
             document.bgColor="#81F1F3";
             break;
+        case 2:
+            for(i=0;i<document.images.length;i++){
+                console.log(document.images[i]);
+
+            }
+            for (i=0;i<document.forms[0].elements.length;i++){ 
+                console.log(document. forms[0].elements[i].value) 
+                
+            }
+            break;
         default:
             var miString = "0123456789" 
             var mitad1,mitad2
