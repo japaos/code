@@ -101,16 +101,16 @@ var esfera={
 			return(2*Math.PI*this.radio);
 	},
 	set datos(r){
-        this.radio=r;this.angulo=r;
+        this.radio=r[0];this.angulo=r[1];
 	}
 
 }	
 	pelota= esfera;
 	console.log(pelota.calcular_v())
 	console.log(pelota.datos)
-	pelota.datos=11;
+	pelota.datos=[11,23];
 	console.log(pelota.datos)
-	pelota.datos=12;
+	pelota.datos=[12,22];
 	console.log(pelota.datos)
-    alert("llega hasta aca")
+	alert("llega hasta aca "+pelota.calcular_v())
 
