@@ -19,8 +19,19 @@
     align-content: center;
     
 }
+
+#pcabecera{
+    font-size:2em;
+    float: left;
+    font-style:oblique;
+    place-content: inherit;
+    text-align: center;
+    width: 60%;
+    
+}
 #imh{
     float: right;
+    width: 10%;
 
 }
 
