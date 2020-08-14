@@ -35,6 +35,29 @@ function crear(nu){
                 
             }
             break;
+        case 3:
+            console.log(window.scrollbars);
+            console.log(window.frames);
+            console.log("alto:"+window.innerHeight);
+            console.log("ancho: "+window.innerWidth);
+            console.log("frames :"+window.length);
+            console.log("Location :"+window.location);
+            console.log(window.opener);
+            console.log(window.status);
+
+            break;
+        case 4:
+            console.log(confirm("accion?","si"));
+            //open();abre una nueva pestaña
+            prompt("ingrese nombre","");
+            print();  //accion de imprimir la imagen de la pagina actual
+
+            break;
+        case 5:
+            resizeTo(300,300);
+            scroll(1,innerHeight)
+
+            break;
         default:
             var miString = "0123456789" 
             var mitad1,mitad2
