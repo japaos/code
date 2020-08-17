@@ -3,6 +3,8 @@ var texto="";
 var hora= new Date;
 var vector=[0,1,2,3,4,5,6,7,8,9];
 
+
+
 for( n=2;n<vector.length;n++){
 console.log(vector[n]);
 
@@ -30,10 +32,8 @@ function crear(nu){
                 console.log(document.images[i]);
 
             }
-            for (i=0;i<document.forms[0].elements.length;i++){ 
-                console.log(document. forms[0].elements[i].value) 
-                
-            }
+            console.log(document.links)
+
             break;
         case 3:
             console.log(window.scrollbars);
@@ -72,3 +72,53 @@ function crear(nu){
 
     }
 }
+
+
+
+class Planeta {
+	constructor(nombre="X",ubicacion=[0,0,0],satelites=0,gravedad=1,tam=1){
+		   this.nombre=nombre;
+		   this.ubicacion=ubicacion;
+		   this.satelites=satelites;
+		   this.gravedad=gravedad;
+		   this.tam=tam;
+
+	}
+   mostrar_todo(){
+       var a= new Array(this.nombre,this.ubicacion,this.satelites,this.gravedad,this.tam);
+	   alert("Parametros de el objeto"+a);
+   }
+   calcular(opcion){
+       switch(opcion) { 
+		   case 1: 
+				a=parseInt(window.prompt("digite velocidad del planeta km/h","0"));
+				orbita=window.prompt("Orbita : \nCircular\nEliptica\nNo","No");
+				switch(orbita){
+					case "Circular":
+						masa=1.989;
+						radio=parseInt(window.prompt("Radio orbita Km: ","1"));
+
+						return(Math.sqrt((this.gravedad*masa)/radio));
+						break;
+					case "Eliptica":
+						masa=1.989;
+						radio=parseInt(window.prompt("Radio orbita Km: ","1"));
+						semi=parseInt(window.prompt("Semi eje mayor de orbita Km: ","1"));
+						vel=Math.sqrt((this.gravedad*masa*2)*((1/radio)-(1/(semi*2))))
+						return(vel);
+						break;
+					default:
+						return(0);
+						break;
+				}
+				break;
+		   default:
+			   return(0);
+			   
+
+
+	   }
+
+   }
+
+   }
