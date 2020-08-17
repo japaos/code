@@ -3,13 +3,26 @@ var texto="";
 var hora= new Date;
 var vector=[0,1,2,3,4,5,6,7,8,9];
 
+// cuando una funcion ejecuta algun cambio tipo html y no se desea refrescar la pagina se debe retornar
+// falso en la funcion que corresponde al cambio
 
+//when a function execute any change in the web html format and dont want to refresh the page the function
+//has to return a false element and the button that make the funtion has to have retunr before call funtion
 
 for( n=2;n<vector.length;n++){
 console.log(vector[n]);
 
 }
 
+function correo(){
+    if (document.forms[1].contenido.value == "") 
+    {alert("Debe rellenar el formulario") }
+ else 
+    {document.forms[1].submit() }
+    document.forms[1].contenido.defaultValue = "Hola!!" 
+
+    return false
+}
 
 function crear(nu){
     switch(nu){
@@ -58,6 +71,27 @@ function crear(nu){
             scroll(1,innerHeight)
 
             break;
+        case 6:
+            alert(document.title);
+            document.title=prompt("digite nuevo titulo","maketa");
+            alert("nuevo titulo: "+document.title);
+            break;  
+        case 7:
+            document.forms[1].contenido.focus();    
+            break;
+        case 8:
+            document.forms[1].contenido.select();
+            break;
+        case 9:
+            for(i=0;i<(document.modificador.elements.length-1);i++){
+                console.log(document.forms[2].elements[i]);                      console.log("un check");
+
+                if(document.modificador.elements[i].cheked){
+                    console.log("un check");
+                }
+            }
+
+            break;
         default:
             var miString = "0123456789" 
             var mitad1,mitad2
@@ -73,6 +107,21 @@ function crear(nu){
     }
 }
 
+function arriba(){
+//    console.log(document.getSelection());
+//    console.log(document.forms[0])
+    
+    document.forms[0].elements[0].value = 11
+    alert(document.getSelection())
+}
+
+function opera(o="+"){
+    var a=document.forms[0].N1.value;
+    var b=document.forms[0].N2.value;
+    var res=eval(a+o+b);
+    document.forms[0].Res.value=res;
+    return false;
+}
 
 
 class Planeta {
@@ -122,3 +171,5 @@ class Planeta {
    }
 
    }
+
+  
