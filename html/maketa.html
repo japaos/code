@@ -21,54 +21,76 @@
             </div>
             <div id="contenido">
                 <div id="seccion">
-                    <article class="articulo">ARTICULO 1</article>
-                    <article class="articulo">
-                        <a><div id="bode"><img src="res/ejercicio para el grupo de 3D.jpg" height="100"width="100" alt=""></div>
-                        </a>
-
-                    </article>
-                    <article class="articulo">ARTICULO 3</article>
-                    <article class="articulo">
-                        <a href="/java.html">
-                            <strong>Pagina java </strong>
-                        </a>                    
-                    </article>
-                    <article class="articulo"><a onmouseover="arriba()"><br> Texto cualquiera</a></article>
-                    <article class="articulo">
-                        <FORM name="formulario">
-                            <input type="text" name="nombre" id="nombre">Nombre<br>
-                            <input type="text" name="apellido" id="apellido">Apellido<br>
-                            <input type="text" name="N1" id="N1" value="0" type="number">N1<br>
-                            <input type="text" name="N2" id="N2" value="0" type="number">N2<br>
-                            <a><button onclick="return opera('+')"> + </button></a>
-                            <a><button onclick="return opera('-')"> - </button></a>
-                            <a><button onclick="return opera('*')"> x </button></a>
-                            <a><button onclick="return opera('/')"> / </button></a>
-                            <br>
-                            <input type="text" name="Res" id="Res" value="0" type="number">Resultado<br>
-                        </FORM>
-                        <FORM name="enviar correo" action="mailto:japaos1103@gmail.com" enctype="text/plain">
-                            <input type="text" name="contenido" id="contenido">Contenido del mensaje
-                            <br>
-                            <a href="https://www.onlygfx.com/wp-content/uploads/2017/11/grunge-circle-frame-1.png"><img src="https://www.onlygfx.com/wp-content/uploads/2017/11/grunge-circle-frame-1.png" height="10" width="10" alt=""><button onclick="return correo()">enviar</button></a>
-                            <input type="password" name="pass" id="pass"  >
-                                <a onmouseover="alert('contraseña'+document.forms[1].elements[1].value)">
-                                    Contraseña <br>
+                    <table border=1 cellpadding=1 cellspacing=6 >
+                       
+                         <tr> 
+                          <td>  <!-- formularios: seccion botones,checkbox,radio,imagenes anexas y document -->
+                            <article class="articulo">ARTICULO 1</article>
+                            <article class="articulo">
+                                <a><div id="bode"><img src="res/ejercicio para el grupo de 3D.jpg" height="100"width="100" alt=""></div>
                                 </a>
-                            <input type="checkbox" accesskey="k" name="caja" id="caja" checked><a>caja</a>    
-                        </FORM>
-                        <FORM name="modificador">  <p>Seleccione un color</p>
-                            <input type="radio" name="color" value="FFFFFF" checked>Blanco <br>
-                            <input type="radio" name="color" value="F31414">Rojo <br>
-                            <input type="radio" name="color" value="141BF3">Azul <br>
-                            <input type="radio" name="color" value="F05B00">Naranja <br>                    
-                            <input type="Button" name="" value="Cambia Color" onclick="crear(9)"> 
-                        </FORM>
-                    </article>
-                    
+
+                            </article>
+                            <article class="articulo">ARTICULO 3</article>
+                            <article class="articulo">
+                                <a href="/java.html">
+                                    <strong>Pagina java </strong>
+                                </a>                    
+                            </article>
+                            <article class="articulo"><a onmouseover="arriba()"><br> Texto cualquiera</a></article>
+                            <article class="articulo_formularios">
+                                <FORM name="formulario">
+                                    <input type="text" name="nombre" id="nombre">Nombre<br>
+                                    <input type="text" name="apellido" id="apellido">Apellido<br>
+                                    <input type="text" name="N1" id="N1" value="0" type="number">N1<br>
+                                    <input type="text" name="N2" id="N2" value="0" type="number">N2<br>
+                                    <a><button onclick="return opera('+')"> + </button></a>
+                                    <a><button onclick="return opera('-')"> - </button></a>
+                                    <a><button onclick="return opera('*')"> x </button></a>
+                                    <a><button onclick="return opera('/')"> / </button></a>
+                                    <br>
+                                    <input type="text" name="Res" id="Res" value="0" type="number">Resultado<br>
+                                </FORM>
+                                <FORM name="enviar correo" action="mailto:japaos1103@gmail.com" enctype="text/plain">
+                                    <input type="text" name="contenido" id="contenido">Contenido del mensaje
+                                    <br>
+                                    <a href="https://www.onlygfx.com/wp-content/uploads/2017/11/grunge-circle-frame-1.png"><img src="https://www.onlygfx.com/wp-content/uploads/2017/11/grunge-circle-frame-1.png" height="10" width="10" alt=""><button onclick="return correo()">enviar</button></a>
+                                    <input type="password" name="pass" id="pass"  >
+                                        <a onmouseover="alert('contraseña'+document.forms[1].elements[1].value)">
+                                            Contraseña <br>
+                                        </a>
+                                    <input type="checkbox" accesskey="k" name="caja" id="caja" checked><a>caja</a>    
+                                </FORM>
+                                <FORM name="modificador">  <p>Seleccione un color</p>
+                                    <input type="radio" name="color" value="FFFFFF" checked>Blanco <br>
+                                    <input type="radio" name="color" value="F31414">Rojo <br>
+                                    <input type="radio" name="color" value="141BF3">Azul <br>
+                                    <input type="radio" name="color" value="F05B00">Naranja <br>                    
+                                    <input type="Button" name="" value="Cambia Color" onclick="crear(9)"> 
+                                </FORM>
+                            </article>
+                          </td> 
+                          <td>
+                              <p>Formularios listas</p>
+                              <FORM name="listseleccion" >
+                                  <select name="califica" id="opciones" >
+                                      <option value="10">Bien</option>
+                                      <option value="5">Regular</option>
+                                      <option value="0">Mal</option>                                                                            
+                                  </select>
+                                  <button onclick="return calificar()">Califica</button><br>                                  
+                                  <textarea name="comentario" id="" cols="30" rows="10">
+                                      Danos un comentario con tu experiencia
+                                </textarea>
+                              </FORM>
+                          </td>      
+                        </tr>   
+                        
+                        
+                    </table> 
                 </div>
                 <div id="aside">
-                    <div class="aside">aside</div>
+                    <div class="aside" id="tituloaside" >aside</div>
                     <div class="aside"><button onclick="crear(0)">login</button></div>
                     <div class="aside"><button onclick="crear(2)">listar IMG</button></div>
                     <div class="aside"><button onclick="crear(1)">colorear</button></div>
