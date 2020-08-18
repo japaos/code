@@ -13,10 +13,11 @@
 
 #header{
     height: 14%;
-    background: #A4A4A4;
+    background: #c76911;
     border-radius: 1em;
     margin: 1em;
     align-content: center;
+    font-size: 150%;
     
 }
 
@@ -71,6 +72,7 @@
     border-radius: 1em;
     margin-left: 0.5em;
     float: right;
+    font: 1.5em sans-serif;
 }
 
 #bode{
@@ -80,3 +82,8 @@ height: 40%;
 
 }
 
+#tituloaside {
+    border: red 2px solid;
+    font-size: 250%
+    
+}
