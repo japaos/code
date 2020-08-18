@@ -83,13 +83,20 @@ function crear(nu){
             document.forms[1].contenido.select();
             break;
         case 9:
-            for(i=0;i<(document.modificador.elements.length-1);i++){
-                console.log(document.forms[2].elements[i]);                      console.log("un check");
+            checks=document.getElementById("caja");
+            if (checks.checked == true){
+                console.log("block");
+              }
+            else{
+                console.log("no block");
+                }  
 
-                if(document.modificador.elements[i].cheked){
-                    console.log("un check");
+             for(var n=0;n<=document.modificador.elements.length-1;n++){
+                
+                if(document.modificador.elements[n].checked){
+                    document.bgColor=document.modificador.elements[n].value;
                 }
-            }
+             }
 
             break;
         default:
@@ -105,6 +112,13 @@ function crear(nu){
             break;            
 
     }
+}
+
+function calificar(){
+    var elemento=document.forms[3].califica.selectedIndex 
+    console.log(elemento);
+    console.log(document.forms[3].califica.options[elemento].text);
+    return false;
 }
 
 function arriba(){
