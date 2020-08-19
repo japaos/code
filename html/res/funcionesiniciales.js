@@ -121,6 +121,37 @@ function calificar(){
     return false;
 }
 
+function revisar_contenido(contenedor){
+    if(contenedor.value[1]==" "){contenedor.value=" ";}
+    
+    // for(i in contenedor.value){
+    //     if(contenedor.value[i]!=" "){
+    //         console.log("gracias por el comentario");break;
+    //     }
+    //     else{
+    //         if(i==contenedor.value.length){
+    //             alert("por favor ingrese un comentario");
+    //         }
+    //     }
+    // }
+    return false;
+}
+function f22(){
+    indice=document.actuar.califica1.selectedIndex;
+    elemento=document.actuar.califica1;
+    
+    if(elemento[indice].value=="Cargar"){
+        alert("que desea cargar");
+        document.listseleccion.comentario.focus();
+    }
+    if(elemento[indice].value=="Guardar"){
+        alert("que desea guardar");
+    }
+    
+
+    return false;
+}
+
 function arriba(){
 //    console.log(document.getSelection());
 //    console.log(document.forms[0])
