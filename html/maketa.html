@@ -13,7 +13,9 @@
     <body>
         <div id="contenedor">
             <div id="header">
-                <div id="pcabecera"> <br>Distribuidora Distriguamal</div>
+                <div id="pcabecera" onclick="location.reload()"> 
+                    <br>Distribuidora Distriguamal
+                </div>
                 <div id="imh"><a href="/java.html"><img src="/res/electron-nucleus.gif" height="100" width="100" alt="atomo"></a></div>
             </div>
             <div id="nav">
@@ -73,13 +75,13 @@
                           <td>
                               <p>Formularios listas</p>
                               <FORM name="listseleccion" >
-                                  <select name="califica" id="opciones" >
+                                  <select name="califica" id="opciones" onchange="alert('esta cambiando la opcion')">
                                       <option value="10">Bien</option>
                                       <option value="5">Regular</option>
                                       <option value="0">Mal</option>                                                                            
                                   </select>
                                   <button onclick="return calificar()">Califica</button><br>                                  
-                                  <textarea name="comentario" id="" cols="30" rows="10">
+                                  <textarea name="comentario" id="comentario" cols="30" rows="10" onclick="revisar_contenido(document.listseleccion.comentario)">
                                       Danos un comentario con tu experiencia
                                 </textarea>
                               </FORM>
@@ -102,7 +104,18 @@
                     <div class="aside"><button onclick="crear(6)">alerta</button></div> 
                     <div class="aside"><button onclick="crear(7)">ir a formulario</button></div> 
                     <div class="aside"><button onclick="crear(8)">seleccionar formulario</button></div> 
-                    
+                    <div class="aside">
+                        <FORM name="actuar">
+                            <select name="califica1" id="califica1">
+                                <option value="Guardar">Guardar1</option>
+                                <option value="Cargar">Cargar1</option>
+                                <option value="Borrar">Borrar1</option>
+                                <option value="Recarga">Actualiza</option>
+
+                            </select>
+                            <br><button onclick="return f22()">Listo</button>
+                        </FORM>
+                    </div>
 
                 </div>
                 
