@@ -121,19 +121,39 @@ function calificar(){
     return false;
 }
 
-function revisar_contenido(contenedor){
-    if(contenedor.value[1]==" "){contenedor.value=" ";}
+function listar_elementos(lugar){
+    switch (lugar.id){
+        case "Pais":
+            paises=["colombia","peru","argentina"];
+            if(lugar[0].text!="colombia"){
+                lugar.length=3
+                for(i=0;i<paises.length-1;i++){
+                    lugar[i].text=paises[i];
+                    lugar[i].value=paises[i];
+                }
+            }
+            // lugar.elements
+             break;
+        case "Dep":
+            console.log(lugar.value)
+            break;
+        default:
+            console.log(lugar.value)
+            break;        
+    }
+}
+
+function revisar_contenido(contenedor,n){
+    if(n==0){
+        if(contenedor.value[1]==" ")
+            {contenedor.value=" ";contenedor.focus();
+        }}
+    if(n==1){
+        if(contenedor.value[0]==" "&&contenedor.value.length==1){contenedor.value="    deja tu comentario.";
     
-    // for(i in contenedor.value){
-    //     if(contenedor.value[i]!=" "){
-    //         console.log("gracias por el comentario");break;
-    //     }
-    //     else{
-    //         if(i==contenedor.value.length){
-    //             alert("por favor ingrese un comentario");
-    //         }
-    //     }
-    // }
+    }
+    }
+    
     return false;
 }
 function f22(){
