@@ -80,11 +80,30 @@
                                       <option value="5">Regular</option>
                                       <option value="0">Mal</option>                                                                            
                                   </select>
-                                  <button onclick="return calificar()">Califica</button><br>                                  
-                                  <textarea name="comentario" id="comentario" cols="30" rows="10" onclick="revisar_contenido(document.listseleccion.comentario)">
-                                      Danos un comentario con tu experiencia
-                                </textarea>
+                                  <button onclick="return calificar()">Califica</button><br>                                                                    
+                                    <textarea name="comentario" id="comentario" cols="30" rows="10" onclick="revisar_contenido(document.listseleccion.comentario,0)" onblur="revisar_contenido(document.listseleccion.comentario,1)">
+                                      Danos un comentario con tu experiencia                                      
+                                </textarea>                
+                                  
                               </FORM>
+                          </td>
+                          <td>
+                            <p>lista de regiones mundo</p>
+                            <FORM name="ubicaciones">
+                                <p>Pais</p>
+                                <select name="Pais" id="Pais" onclick="listar_elementos(document.ubicaciones.Pais)">
+                                    <option value="0">Seleccione Pais</option>
+                                    <option value="1">Seleccione Elemenr</option>                                                                        
+                                </select>
+                                <p>Departamento o estado</p>
+                                <select name="Dep" id="Dep" onclick="listar_elementos(document.ubicaciones.Dep)">
+                                    <option value="0">Departamento</option>                                    
+                                </select>
+                                <p>Cuidad</p>
+                                <select name="Ciu" id="Ciu" onclick="listar_elementos(document.ubicaciones.Ciu)">
+                                    <option value="0">Seleccione cuidad</option>                                    
+                                </select>
+                            </FORM>
                           </td>      
                         </tr>   
                         
