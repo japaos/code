@@ -99,6 +99,14 @@ function crear(nu){
              }
 
             break;
+        case 10:
+            try {
+                //intento algo que puede producir un error
+                funcion_que_no_existe()
+             }catch(mierror){
+                alert("Error detectado: " + mierror.description)
+             }
+            break;    
         default:
             var miString = "0123456789" 
             var mitad1,mitad2
@@ -112,6 +120,7 @@ function crear(nu){
             break;            
 
     }
+    return false;
 }
 
 function calificar(){
@@ -127,19 +136,45 @@ function listar_elementos(lugar){
             paises=["colombia","peru","argentina"];
             if(lugar[0].text!="colombia"){
                 lugar.length=3
-                for(i=0;i<paises.length-1;i++){
+                for(i=0;i<paises.length;i++){
                     lugar[i].text=paises[i];
                     lugar[i].value=paises[i];
-                }
+                }   
             }
             // lugar.elements
              break;
         case "Dep":
             console.log(lugar.value)
+            //console.log(document.ubicaciones.Pais.selectedIndex);
+            indice=document.ubicaciones.Pais.selectedIndex;
+            colombia=["Meta","Arauca","Casanare"];
+            argentina=["Cordoba","Catamarca","Buenos aires"];
+            peru=["Cusco","Ica","Huacho"];
+
+            ciudades=[colombia,peru,argentina];
+            if(document.ubicaciones.Pais[0].text=="colombia"){
+                lugar.length=3
+                for(i=0;i<paises.length;i++){
+                    lugar[i].text=ciudades[indice][i];
+                    lugar[i].value=ciudades[indice][i];
+                }
+            }
+            else{lugar[0].text="Seleccione ciudad";}
+            
             break;
         default:
-            console.log(lugar.value)
-            break;        
+            indice=document.ubicaciones.Ciu.selectedIndex;
+            cyti=[Math.random(),"bogota","cali"];
+            
+            if(document.ubicaciones.Ciu[0].text!="Seleccione ciudad"){
+                lugar.length=3
+                for(i=0;i<paises.length;i++){
+                    lugar[i].text=cyti[i];
+                    lugar[i].value=cyti[i];
+                }
+            }
+            else{lugar[0].text="Seleccione cuidad";}
+            break;    
     }
 }
 
