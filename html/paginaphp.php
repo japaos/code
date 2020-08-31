@@ -14,6 +14,7 @@
       $numero1=1;
       $numero2="33";
       echo $numero1+$numero2;      
+      idioma();
       holis(5);
       $objetivo="texto";$apuntador=&$objetivo;
       echo "<br>Variable objetivo $objetivo";
@@ -137,5 +138,19 @@
         </table>
         
     </div>
+    <p>para asignar ver variables de html se usa el parametro _GET de php
+    <br>este parametro es una array contiene la informacion correspondiente a<br>
+    a las variables enviadas desde http
+    </p> 
+    Variable "saludo": <?php echo $_GET["saludo"]; ?> 
+    <br>
+    Variable "texto" <?php echo $_GET["texto"]; ?>
+    <br>Lista de elementos almacenados dentro de _GET:<br>
+    
+    <?php
+        foreach($_GET as $elemento){
+          echo "<br>".$elemento;
+        }
+    ?>
 </body>
 </html>
