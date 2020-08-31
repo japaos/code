@@ -29,7 +29,7 @@
                           <td>  <!-- formularios: seccion botones,checkbox,radio,imagenes anexas y document -->
                             <article class="articulo">ARTICULO 1</article>
                             <article class="articulo">
-                                <a><div id="bode"><img src="res/ejercicio para el grupo de 3D.jpg" height="100"width="100" alt=""></div>
+                                <a href="paginaphp.php?saludo=hola&texto=esto es un texto"><div id="bode"><img src="res/ejercicio para el grupo de 3D.jpg" height="100"width="100" alt=""></div>
                                 </a>
 
                             </article>
@@ -104,6 +104,12 @@
                                     <option value="0">Seleccione cuidad</option>                                    
                                 </select>
                                 <button onclick="return crear(10)">Error</button>
+                            </FORM>
+                            <FORM method="POST" action="res/log.php">                                
+                                <br>Nombre cliente<input type="text" name="cliente" id="cliente">
+                                <br>Contraseña cliente<input type="password" name="clave" id="clave">
+                                <br>Edad cliente<input type="text" name="edad" id="edad">
+                                <input type="submit" >
                             </FORM>
                           </td>      
                         </tr>   
