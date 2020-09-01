@@ -1,4 +1,13 @@
+<?php
+   // session_register("carrito");
+   session_start();
+    setcookie("migalleta", "mivalor",time()+(365*24*60*60)); 
+    //setcookie("cookie2", "mivalor2", time() + 3600); 
+    //setcookie("otracookie", "valorfinal", time() + 3600, "/", ".midominio.com");
+?>
+
 <!doctype html>
+
 <html lang="es">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,10 +38,10 @@
         <table>
              <tr>
                <td>
-                  <button>AccionJS</button>
+                 <a href="res/other.php"><button onclick="">AccionPHP</button></a> 
                </td>
                <td>
-                  <button>AccionP PHP</button> 
+                  <button>AccionP JS</button> 
                </td>
                <td>
                   <?php
@@ -142,15 +151,27 @@
     <br>este parametro es una array contiene la informacion correspondiente a<br>
     a las variables enviadas desde http
     </p> 
-    Variable "saludo": <?php echo $_GET["saludo"]; ?> 
+    Variable "saludo": <?php if($_GET){echo $_GET["saludo"];} ?> 
     <br>
-    Variable "texto" <?php echo $_GET["texto"]; ?>
+    Variable "texto" <?php if($_GET){echo $_GET["texto"];} ?>
     <br>Lista de elementos almacenados dentro de _GET:<br>
     
     <?php
         foreach($_GET as $elemento){
           echo "<br>".$elemento;
+          $lin=$_COOKIE["migalleta"];  
+          echo $lin;
         }
+        if(isset($_SESSION["carrito"])){
+          echo "<br>"."si existe carrito: ";
+          echo $_SESSION["carrito"]  ;
+          $_SESSION["carrito"]++;  
+
+        }
+        else{echo "no existe";
+            $_SESSION["carrito"]=0;
+        }
+
     ?>
 </body>
 </html>
