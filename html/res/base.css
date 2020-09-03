@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background: #b4bfe0;
+    margin: 0.5em auto;
+    padding: 0.5em ;
+}
+
+#t{
+    height: 60%;
+    background: #c76911;
+    border-radius: 1em;
+    margin: 1em;
+    align-content: center;
+    font-size: 150%;
+    
+}
+
+
+
+#nav{
+    height: 4%;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#t1{
+    height: 40%;
+    background: #618bd8;
+    margin: 1em;
+}
+
+
