@@ -23,7 +23,7 @@
       $numero1=1;
       $numero2="33";
       echo $numero1+$numero2;      
-      idioma();
+      #idioma();
       holis(5);
       $objetivo="texto";$apuntador=&$objetivo;
       echo "<br>Variable objetivo $objetivo";
@@ -39,9 +39,19 @@
              <tr>
                <td>
                  <a href="res/other.php"><button onclick="">AccionPHP</button></a> 
+                 <br><FORm method="POST" action="res/guardar.php">
+                 Referencia <input type="text" value="--" name="REF">
+                 <br>CC cliente <input type="text" value="--" name="ID">
+                 <input type="SUBMIT" value="crear">                 
+                 </FORm>
                </td>
                <td>
                   <button>AccionP JS</button> 
+                  <br>
+                  <FORm method="POST" action="res/buscar.php">
+                  REF<input type="text" value="--" name="REF">                  
+                  <input type="SUBMIT" value="buscar">                 
+                  </FORm>
                </td>
                <td>
                   <?php
@@ -72,6 +82,7 @@
 
                 </FORM>
                 </td>
+
                 <td>
                     <?php    #comentario  //comentario   /*comentario tambien
                              # la funcion array_slice toma el arreglo y elimina de adelante hacia atras
@@ -162,6 +173,10 @@
           $lin=$_COOKIE["migalleta"];  
           echo $lin;
         }
+        //una sesion es una variable que se almecena en memoria del pc para poder 
+        //transmitir durante la navegacion de la pagina solo deja de existir si se cierra el navegador
+        //la funcion Session_destroy() elimina todas las varibles de la sesion
+        //la funcion Session_unregister('variable') elimina del registro una variable en especifico de la sesion  
         if(isset($_SESSION["carrito"])){
           echo "<br>"."si existe carrito: ";
           echo $_SESSION["carrito"]  ;
@@ -171,6 +186,7 @@
         else{echo "no existe";
             $_SESSION["carrito"]=0;
         }
+
 
     ?>
 </body>
