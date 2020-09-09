@@ -25,15 +25,24 @@ Guarda
                     }
                     //selección de la base de datos con la que vamos a trabajar 
                     $db=mysqli_select_db($server,"ejemplo"); 
+                    $result=mysqli_query($server,"select * from clientes");
+                    $flag=1;
+                    echo "<br>ID    REF:";
+                    while($i=mysqli_fetch_array($result)){
+                        echo "<br>".$i["id"];echo "   ".$i["ref"];
+                        if($i["id"]==$ID){$flag=0;}
+                    }
 
                     //Ejecucion de la sentencia SQL
-                    mysqli_query($server,"insert into clientes (nombre,telefono) values ('$REF','$ID')");
+                    if($flag){
+                        mysqli_query($server,"insert into clientes (ref,id) values ('$REF','$ID')");                    
+                    }
                     mysqli_close( $server);
-
                     ?>
-        <h1><div align="center">Registro Insertado</div></h1>
+        <h1><div align="center">Registro
+        <?php if(!$flag){echo " No ";}?> Insertado</div></h1>
         <div align="center"><a href="lectura.php">Visualizar el contenido de la base</a></div>        
-        <script>window.history.back();</script>                
+        <script>//window.history.back();</script>                
         </div>
     </div>
 </body>
