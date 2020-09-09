@@ -168,6 +168,7 @@
     <br>Lista de elementos almacenados dentro de _GET:<br>
     
     <?php
+        //codigo para utilizar la coockie creada llama mi galleta
         foreach($_GET as $elemento){
           echo "<br>".$elemento;
           $lin=$_COOKIE["migalleta"];  
