@@ -1,0 +1,822 @@
+InnoDB: using atomic writes.
+2020-09-04  9:30:54 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2020-09-04  9:30:54 0 [Note] InnoDB: Uses event mutexes
+2020-09-04  9:30:54 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-04  9:30:54 0 [Note] InnoDB: Number of pools: 1
+2020-09-04  9:30:54 0 [Note] InnoDB: Using generic crc32 instructions
+2020-09-04  9:30:54 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2020-09-04  9:30:54 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-04  9:30:54 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1981687
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\base1\cliente.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``base1`.`cliente``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `base1`.`cliente` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_action_log_config.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_action_log_config``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_action_log_config` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_action_logs.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_action_logs``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_action_logs` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_action_logs_extensions.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_action_logs_extensions``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_action_logs_extensions` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_action_logs_users.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_action_logs_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_action_logs_users` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_assets.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_assets``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_assets` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_associations.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_associations``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_associations` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_banner_clients.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_banner_clients``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_banner_clients` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_banner_tracks.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_banner_tracks``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_banner_tracks` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_banners.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_banners``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_banners` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_categories.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_categories``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_categories` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_contact_details.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_contact_details``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_contact_details` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_content.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_content``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_content` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_content_frontpage.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_content_frontpage``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_content_frontpage` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_content_rating.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_content_rating``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_content_rating` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_content_types.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_content_types``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_content_types` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_contentitem_tag_map.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_contentitem_tag_map``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_contentitem_tag_map` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_core_log_searches.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_core_log_searches``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_core_log_searches` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_extensions.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_extensions``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_extensions` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_fields.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_fields``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_fields` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_fields_categories.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_fields_categories``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_fields_categories` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_fields_groups.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_fields_groups``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_fields_groups` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_fields_values.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_fields_values``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_fields_values` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_filters.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_filters``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_filters` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms0.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms0``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms0` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms1.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms1` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms2.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms2``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms2` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms3.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms3``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms3` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms4.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms4``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms4` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms5.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms5``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms5` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms6.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms6``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms6` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms7.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms7``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms7` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms8.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms8``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms8` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_terms9.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_terms9``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_terms9` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_termsa.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_termsa``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_termsa` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_termsb.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_termsb``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_termsb` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_termsc.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_termsc``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_termsc` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_termsd.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_termsd``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_termsd` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_termse.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_termse``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_termse` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_links_termsf.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_links_termsf``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_links_termsf` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_taxonomy.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_taxonomy` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_taxonomy_map.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_taxonomy_map``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_taxonomy_map` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_terms.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_terms` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_terms_common.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_terms_common``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_terms_common` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_finder_types.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_finder_types``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_finder_types` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_languages.ibd' OS error: 203
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:30:59 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_languages``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:30:59 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_languages` because it could not be opened.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:30:59 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_menu.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_menu``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_menu` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_menu_types.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_menu_types``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_menu_types` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_messages.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_messages``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_messages` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_messages_cfg.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_messages_cfg``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_messages_cfg` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_modules.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_modules``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_modules` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_modules_menu.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_modules_menu``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_modules_menu` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_newsfeeds.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_newsfeeds``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_newsfeeds` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_overrider.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_overrider``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_overrider` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_postinstall_messages.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_postinstall_messages``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_postinstall_messages` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_privacy_consents.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_privacy_consents``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_privacy_consents` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_privacy_requests.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_privacy_requests``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_privacy_requests` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_redirect_links.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_redirect_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_redirect_links` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_schemas.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_schemas``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_schemas` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_session.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_session``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_session` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_tags.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_tags``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_tags` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_template_styles.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_template_styles``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_template_styles` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_ucm_base.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_ucm_base``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_ucm_base` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_ucm_content.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_ucm_content``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_ucm_content` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_ucm_history.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_ucm_history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_ucm_history` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_update_sites.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_update_sites``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_update_sites` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_update_sites_extensions.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_update_sites_extensions``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_update_sites_extensions` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_updates.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_updates``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_updates` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_user_keys.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_user_keys``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_user_keys` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_user_notes.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_user_notes``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_user_notes` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_user_profiles.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_user_profiles``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_user_profiles` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_user_usergroup_map.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_user_usergroup_map``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_user_usergroup_map` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_usergroups.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_usergroups``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_usergroups` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_users.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_users` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_utf8_conversion.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_utf8_conversion``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_utf8_conversion` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\joomla3x\h5mfg_viewlevels.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``joomla3x`.`h5mfg_viewlevels``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `joomla3x`.`h5mfg_viewlevels` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\gtid_slave_pos.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`gtid_slave_pos``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`gtid_slave_pos` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_index_stats.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`innodb_index_stats``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`innodb_index_stats` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\innodb_table_stats.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`innodb_table_stats``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`innodb_table_stats` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\mysql\transaction_registry.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``mysql`.`transaction_registry``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `mysql`.`transaction_registry` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__bookmark.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__bookmark``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__bookmark` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__central_columns.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__central_columns``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__central_columns` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__column_info.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__column_info``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__column_info` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__designer_settings.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__designer_settings``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__designer_settings` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__export_templates.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__export_templates``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__export_templates` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__favorite.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__favorite``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__favorite` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__history.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__history``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__history` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__navigationhiding.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__navigationhiding``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__navigationhiding` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__pdf_pages.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__pdf_pages``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__pdf_pages` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__recent.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__recent``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__recent` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__relation.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__relation``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__relation` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__savedsearches.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__savedsearches``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__savedsearches` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_coords.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_coords``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_coords` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_info.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_info``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_info` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__table_uiprefs.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__table_uiprefs``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__table_uiprefs` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__tracking.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__tracking``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__tracking` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__userconfig.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__userconfig``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__userconfig` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__usergroups.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__usergroups``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__usergroups` because it could not be opened.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\phpmyadmin\pma__users.ibd' OS error: 203
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2020-09-04  9:31:00 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2020-09-04  9:31:00 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``phpmyadmin`.`pma__users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2020-09-04  9:31:00 0 [Warning] InnoDB: Ignoring tablespace for `phpmyadmin`.`pma__users` because it could not be opened.
+2020-09-04  9:31:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-04  9:31:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-04  9:31:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-04  9:31:00 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-04  9:31:00 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2020-09-04  9:31:00 0 [Note] InnoDB: Waiting for purge to start
+2020-09-04  9:31:00 0 [Note] InnoDB: 10.4.11 started; log sequence number 1981696; transaction id 1819
+2020-09-04  9:31:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2020-09-04  9:31:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-04  9:31:00 0 [ERROR] Could not open mysql.plugin table. Some plugins may be not loaded
+2020-09-04  9:31:00 0 [ERROR] Can't open and lock privilege tables: Table 'mysql.servers' doesn't exist
+2020-09-04  9:31:00 0 [Note] Server socket created on IP: '::'.
+2020-09-04  9:31:01 0 [Note] InnoDB: Buffer pool(s) load completed at 200904  9:31:01
