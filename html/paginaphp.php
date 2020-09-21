@@ -1,3 +1,4 @@
+
 <?php
    // session_register("carrito");
    session_start();
@@ -5,7 +6,9 @@
     //setcookie("cookie2", "mivalor2", time() + 3600); 
     //setcookie("otracookie", "valorfinal", time() + 3600, "/", ".midominio.com");
 ?>
-
+<?
+header("HTTP/1.0 404 Not Found");
+?>
 <!doctype html>
 
 <html lang="es">
