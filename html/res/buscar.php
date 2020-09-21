@@ -1,6 +1,9 @@
 <?php
     setcookie("migalleta", "mivalor",time()+(365*24*60*60)); 
 ?>
+<?
+header("HTTP/1.0 404 Not Found");
+?>
 <HTML lang="es">
 <meta charset="UTF-8">    
 <HEad>
@@ -32,24 +35,42 @@ Guarda
                     }                    
                     if($flag==0){echo "Referencia no encontrada";}
                 }
-                else{$REF=$_GET["ref"];echo "pagina actualizada";$ID=$_GET["nombre"];
-                    $sSQL="Update clientes Set id='$ID' Where ref='$REF'";
+                else{
+                    $REF=$_GET["ref"];echo "Dato almacenado";$ID=$_GET["nombre"];
+                    if($_GET["nombre"]=="??"){
+                        echo "??";
+                        $sSQL="Delete From clientes Where ref='$REF'";
+                    }
+                    else{echo "====";
+                        $sSQL="Update clientes Set id='$ID' Where ref='$REF'";
+                    }                        
                     mysqli_query($server,$sSQL);
                 }
 
             ?>
 
-        </div>
+        </div>  
         <div id="t1">
-        <FORM name="forma">
+        
+        
+    <?php 
+        if(!isset($_GET["nombre"])){  ?>
+            <FORM name="forma">
                         <input type="hidden" name="ref" value=<?php echo "\"".$REF."\"";?>>
-                        <br><input type="text" name="nombre" id="nombre" value="nn"><button >Modificar</button>                    
-                        <button>Borrar</button>
-                                   
+                        <br><input type="text" name="nombre" id="   nombre" value="--"><button >Modificar</button>                    
+                                                           
             </FORM>
-            <button onclick="window.history.back()">Volver</button>   
+            <FORM name="forma">
+                        <input type="hidden" name="ref" value=<?php echo "\"".$REF."\"";?>>
+                        <input type="hidden" name="nombre" id="   nombre" value="??"><button >Borrar</button>                                                                               
+            </FORM>    
+        <?php   }
+
+    ?>  
+    <button onclick="window.history.back()">Volver</button>   
         </div>
-    </div>
+    </div>            
+
 </body>
 
 </HTML>
