@@ -1,0 +1,1 @@
+<!--?php &lt;br ?--> phpinfo();
