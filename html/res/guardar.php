@@ -12,7 +12,7 @@ Guarda
 <body>
     <div id="contenedor">
         <div id="t">
-                contenido dentro del testo
+                contenido dentro del texto
         </div>
         <div id="t1">
                     <?php
