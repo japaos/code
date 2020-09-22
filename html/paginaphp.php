@@ -13,6 +13,7 @@ header("HTTP/1.0 404 Not Found");
 
 <html lang="es">
 <head>
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
@@ -193,5 +194,14 @@ header("HTTP/1.0 404 Not Found");
 
 
     ?>
+    <FOrm metod="POST" action="res/ej.php">
+       <input type="text" value="--" name="gc">
+       <select name="seleccion" id="sel">
+         <option value="1">ejercicio1</option>
+         <option value="2">ejercicio2</option>
+         <option value="1">ejercicio3</option>
+       </select>
+      <input type="submit" value="carga">
+      </FOrm>
 </body>
 </html>
