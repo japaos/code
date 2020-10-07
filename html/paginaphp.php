@@ -17,7 +17,17 @@ header("HTTP/1.0 404 Not Found");
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
-    <title>Primera página PHP</title>        
+    <title>Primera página PHP</title>
+    <script language="javascript">
+      function esconder(ide='w3',nombt='b2'){
+        var a=document.getElementById(nombt);
+        alert (a.value);
+        if(a.value=="esconder"){document.getElementById(ide).style.display = 'none';a.value="mostrar";}
+        else{document.getElementById(ide).style.display = 'block';a.value="esconder";}
+        }
+      function sow(){
+        document.getElementById('nuevaimg').innerHTML = '<img src="res/circle.png">';}
+    </script>        
 </head>
 <body>
     <h1>Esto es HTML</h1>
@@ -37,7 +47,10 @@ header("HTTP/1.0 404 Not Found");
       echo "<br>Variable objetivo $objetivo";
       echo "<br>Contenido apuntador$apuntador";
     ?>
-    <div id="contenedor"></div>
+    <div id="contenedor">
+          <a href="javascript:sow()" id="nuevaimg">Mostrar</a> 
+
+    </div>
     <div id="Botonera">
         <table>
              <tr>
@@ -78,10 +91,11 @@ header("HTTP/1.0 404 Not Found");
                         echo "<p>";
                         //modifico otra vez
                         $salida = array_slice ($entrada, 1);
-
+                        $ubicaciones=scandir("res/");
+                        foreach($ubicaciones as $deed){echo "<br>".$deed;}
                         //muestro el array
                         foreach ($salida as $actual)
-                            echo $actual . "<br>";
+                            echo $actual . "<br>";                            
                       ?>
 
                 </FORM>
@@ -162,10 +176,34 @@ header("HTTP/1.0 404 Not Found");
         </table>
         
     </div>
+    <input type="button" id="b1" value="esconder" onclick='esconder("Botonera","b1")'>
     <p>para asignar ver variables de html se usa el parametro _GET de php
     <br>este parametro es una array contiene la informacion correspondiente a<br>
     a las variables enviadas desde http
     </p> 
+    <form method="POST" action="paginaphp.php"  enctype="multipart/form-data">
+        <input type="file" name="img" id="img">
+        <input type="submit" name="subir" value="subir">                
+    </form>
+    <input type="button" id="b2" value="esconder" onclick='esconder("w3","b2")'>
+    <?php
+               if(isset($_POST["subir"])){
+                 $nombre=$_FILES['img']["name"];
+                // echo "s; ".$nombre;
+                 //echo "s; ".$_FILES['img']['tmp_name'];
+                 if (move_uploaded_file($_FILES['img']['tmp_name'], 'res/'.$nombre)) {
+                  //Cambiamos los permisos del archivo a 777 para poder modificarlo posteriormente
+                  chmod('res/'.$nombre, 0777);
+                  //Mostramos el mensaje de que se ha subido co éxito
+                  echo '<div ><b>Se ha subido correctamente la imagen.</b></div>';
+                  //Mostramos la imagen subida
+                  echo '<div id="w3">p><img src="res/'.$nombre.'"></p><div>';
+                  }                    
+
+               }
+               else{echo "nada aun";}
+        ?>
+
     Variable "saludo": <?php if($_GET){echo $_GET["saludo"];} ?> 
     <br>
     Variable "texto" <?php if($_GET){echo $_GET["texto"];} ?>
