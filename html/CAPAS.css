@@ -1,0 +1,18 @@
+td, p{ 
+    background-color: #000000; 
+    color: #ffffff; 
+}
+
+.inverso{ 
+    background-color: #ffffff; 
+    color: #000000; 
+}
+
+body{
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-web_46706-195.jpg);
+}
+
+li{ color:white;
+    background-color: black;    
+    float: right;
+ }
