@@ -1,0 +1,68 @@
+ P  {font: italic normal bold 12px/30pt Verdana, Tahoma, Arial;
+    color:black} 
+
+H1  {
+ font-size : 36pt;
+ font-family : verdana,arial;
+ text-decoration : underline;
+ text-align : center;
+ background-color : Teal;
+}
+
+TD  {
+ font-size : 10pt;
+ font-family : verdana,arial;
+ text-align : center;
+ background-color : #bb352b;
+}
+
+BODY  {
+ background-color : #57a5e6;
+ font-family : arial;
+ color : rgb(131, 47, 47);
+}
+
+#FUENTE{
+color:rgb(255, 238, 0);
+
+}
+
+#FUENTE2{
+    color:blue;
+}
+
+.FFVII{
+    font-family:fantasy;
+    font-style: normal;
+    color:black;
+    font-weight: normal;
+    font-size: 3ex;
+    text-align: center;
+    background-color: blueviolet;
+    margin: 1mm 30%;
+    border-style: solid;
+
+}
+.FFVIII{
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    color:black;
+    font-weight: normal;
+    font-size: 3ex;
+    text-align: center;
+    background-color: rgb(72, 100, 71);
+    border: 2mm;
+    border-radius: 3mm;
+    border-color: black;
+    border-style: solid;
+    margin: 1mm 30%;
+
+}
+
+p.FFVII::first-line{color:rgb(72, 255, 0);
+                    text-decoration: underline;}
+
+ A:link {text-decoration:none;color:#0000cc;}
+  A:visited {text-decoration:none;color:#ffcc33;}
+  A:active {text-decoration:none;color:#ff0000;}
+  A:hover {text-decoration:underline;color:#999999;font-weight:bold}
