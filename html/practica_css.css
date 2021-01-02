@@ -1,0 +1,56 @@
+li{
+    float: right;
+    margin-left: 20px;
+    
+ }
+ .super{
+     font-size: 24px;
+ }
+
+#texto{
+    background-color: gray;
+       
+ }
+ 
+ .box_cd{
+
+     overflow: auto;
+     width: 200px;
+     height: 50px;
+     border-color: black;
+     border: 1mm solid;
+    }
+
+    .rojo, .verde, .azul {
+        position: absolute;
+        
+        }
+        .rojo {
+        background: red;
+        z-index: 1;
+        top: 50%;
+        left: 50%;
+        }
+        .verde {
+        background: green;
+            top: 51%;
+            left:51%;
+        }
+        .azul {
+        background: blue;
+        top: 52%;
+        left:52%;
+        }
+
+        .grande{
+            background-color: indigo;
+            color:white;
+            width: 80%;
+            position: relative;
+            left: 10%;
+        }
+
+        div:first-child{
+            opacity: 0.88;
+        }
+
