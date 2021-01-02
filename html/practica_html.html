@@ -1,0 +1,81 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="STYLESHEET" href="practica_css.css">   <!--call the styke sheet -->
+    <script>
+        function mostrar(){
+            // document.getElementsByClassName("texto");
+            a=document.getElementById('texto');
+            //alert(a.style.display);
+            a.style.setProperty('display','none');            
+        }
+        function aumentar(ae=0){
+            // document.getElementsByClassName("texto");
+            a=document.getElementsByClassName('super');
+            //alert(a.style.display);
+            fuente=a[0].style.fontSize;
+            if(fuente==''){console.log("primera ejecucion");
+            a[0].style.setProperty('font-size','24px');
+            fuente="24px";
+            }
+            else{
+                if(ae==1){
+                    numero=fuente.slice(0,fuente.indexOf('p'));
+                    numero=toInt(numero)+10;
+                    console.log(numero+'px');
+                }
+            }
+            
+            
+        }
+    </script>
+</head>
+<body>
+
+    <h1>port año 2016</h1>
+    <div id="texto">
+        <p>Texto de prueba para usuario verificacion de ubicacion de la lista</p>
+    </div>
+    <button  style="color: white; background-color: tomato; border-color: white;" onclick="mostrar()">Mostrar</button>
+    
+    <div style="position: fixed;top: 10%;left: 90%;">
+        <button onclick="aumentar(1)">Subir</button><button onclick="aumentar(0)">Bajar</button>
+    </div>
+
+    <div style="overflow: auto; width: 300px; height: 100px; background-color:#ededed; border: 1px solid #990000;position: static; top: 100px; left: 200px;">
+        CONTENIDO....
+    </div>
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+    </ul>
+
+    <p style="position: absolute; top: 2000px; left: 200px;">Absoluto</p>
+    <div class="box_cd">
+        <p>contenido de codigo html incluido como texto dentro del programa 
+               <br> bocho
+               <br> concjo
+                <br>    rivas
+        </p>
+    </div>
+<div class="super">
+    <div class="grande">
+        <p>El porcentaje es otra de las medidas o unidades que podemos utilizar en los atributos de hojas de estilo en cascada (CSS) para definir un tamaño. En este artículo veremos ejemplos acerca de modificar los tamaños de los textos por medio de porcentajes, para conseguir nuevos tamaños que sean relativos a los que se están utilizando.
+            Por ejemplo, podríamos definir un estilo para escribir con un texto el doble de grande del que se esté trabajando:
+        </p>
+    </div>
+    <div>
+        <span class="rojo">Rojo</span>
+        </div>
+        <div>
+        <span class="verde">Verde sepia</span>
+        </div>
+        <div>
+        <span class="azul">Azul mari</span>
+    </div>
+</div>
+</body>
+</html>
